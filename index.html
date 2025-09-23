@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cen iOS Link Cài Tốc Độ Cao</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    :root {
+      --bg-color: #f5f5f7;
+      --text-color: #222;
+      --card-bg: #fff;
+      --card-shadow: rgba(0, 0, 0, 0.08);
+      --btn-bg: #1a73e8;
+      --btn-bg-hover: #155ab6;
+      --price-color: #e53935;
+    }
+
+    body.dark {
+      --bg-color: #1e1e1e;
+      --text-color: #f5f5f5;
+      --card-bg: #2c2c2c;
+      --card-shadow: rgba(255, 255, 255, 0.05);
+      --btn-bg: #4285f4;
+      --btn-bg-hover: #2b6cb0;
+      --price-color: #ff8a80;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      padding: 32px;
+      margin: 0;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .banner {
+      width: 100%;
+      border-radius: 16px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 6px var(--card-shadow);
+    }
+
+    .toggle-theme {
+      float: right;
+      margin-bottom: 16px;
+      padding: 8px 16px;
+      background: var(--btn-bg);
+      color: white;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 2px 6px var(--card-shadow);
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex: 1;
+      min-width: 200px;
+    }
+
+    img.icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      border: 1px solid #ccc;
+      object-fit: cover;
+      background: #fff;
+    }
+
+    .meta h1 {
+      font-size: 20px;
+      margin: 0 0 4px;
+    }
+
+    .meta .info {
+      font-size: 14px;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    .prices {
+      font-size: 13px;
+      margin-top: 6px;
+      color: var(--price-color);
+    }
+
+    .prices del {
+      color: #999;
+      margin-right: 4px;
+    }
+
+    a.btn {
+      padding: 12px 24px;
+      border-radius: 999px;
+      background-color: var(--btn-bg);
+      color: white;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.3s;
+    }
+
+    a.btn:hover {
+      background-color: var(--btn-bg-hover);
+    }
+
+    .tips {
+      color: #888;
+      font-size: 14px;
+      margin-top: 24px;
+      text-align: center;
+    }
+  
+@media (max-width: 480px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .left {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .meta {
+    flex: 1;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  }
+}
+
+    .status-safe {
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 13px;
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+.trust-guide {
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.trust-guide h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.trust-guide .steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.trust-guide .step {
+  flex: 1;
+  min-width: 100px;
+  max-width: 140px;
+  margin: 0 auto;
+}
+
+.trust-guide .step p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+.trust-guide .step img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- App 1: PUBG -->
+<div class="card">
+      <img class="banner" src="https://k3ndzy.github.io/CeniOs/banner.jpg" alt="FunTap iOS Screenshot" style="width: 100%; border-radius: 12px; margin-bottom: 16px;">
+  <div class="left">
+    <img class="icon" src="icon-120.png" alt="App Icon" />
+    <div class="meta">
+      <h1>FunTap PUBG</h1>
+      <div class="info">
+        Version: <strong>4.0</strong><br />
+        Bundle ID: <code>xg.pubgmobile.xiao</code><br /> 
+         <strong>Hiện Trạng:</strong>  <span class="status-safe">An Toàn</span><br />
+
+        <div class="prices">
+          <div>Ngày: <del>80k</del> <strong>50k</strong></div>
+          <div>Tuần: <del>300k</del> <strong>200k</strong></div>
+          <div>Tháng: <del>800k</del> <strong>500k</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--   <div style="width: 100%; display: flex; justify-content: flex-end;">
+    <a class="btn" href="itms-services://?action=download-manifest&url=https://k3ndzy.github.io/CeniOs/app.plist" onclick="handleInstallClick(this)">Cài đặt</a>
+  </div>
+          <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <a class="btn" href="https://link4sub.com/9ds6" onclick="handleInstallClick(this)">Get Key 5h</a>
+   </div>
+                  <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <a class="btn" href="https://link4sub.com/WanK" onclick="handleInstallClick(this)">Get Key 3h (Sau 8h) </a>
+  </div> -->
+  <div style="width: 100%; display: flex; gap: 12px; justify-content: flex-end; flex-wrap: wrap;">
+  <a class="btn" href="itms-services://?action=download-manifest&url=https://k3ndzy.github.io/CeniOs/app.plist" onclick="handleInstallClick(this)">Cài đặt</a>
+  <a class="btn" href="https://link4sub.com/9ds6" onclick="handleInstallClick(this)">Lấy Mã 6h</a>
+  <a class="btn" href="https://link4sub.com/WanK" onclick="handleInstallClick(this)">Fun Link 6h (Site 2)</a>
+</div>
+
+</div>
+
+
+    <div class="card">
+            <img class="banner" src="https://k3ndzy.github.io/CeniOs/Aov.png" alt="FunTap iOS Screenshot" style="width: 100%; border-radius: 12px; margin-bottom: 16px;">
+      <div class="left">
+        <img class="icon" src="icon-120.png" alt="App Icon" />
+        <div class="meta">
+          <h1>Cen Map AOV</h1>
+          <div class="info">
+            Version: <strong>4.0</strong><br />
+            Bundle ID: <code>com.soimap.game.kgvn</code><br />
+             <strong>Hiện Trạng:</strong>  <span class="status-safe">An Toàn</span><br />
+            <div class="prices">
+              <div>Ngày: <del>40k</del> <strong>20k</strong></div>
+              <div>Tuần: <del>150k</del> <strong>80k</strong></div>
+              <div>Tháng: <del>350k</del> <strong>200k</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--       setting  -->
+        <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <a class="btn" href="itms-services://?action=download-manifest&url=https://k3ndzy.github.io/CeniOs/lienquanvu.plist" onclick="handleInstallClick(this)">Cài đặt</a>
+    </div>
+          
+        <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <a class="btn" href="https://link4sub.com/sHWF" onclick="handleInstallClick(this)">Lấy Mã 1 Ngày</a>
+    </div>
+                  <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <a class="btn" href="https://link4sub.com/9WwM" onclick="handleInstallClick(this)">Fun link 1 ngày </a>
+    </div>
+
+  </div>
+    <div class="wrap">
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+
+    function handleInstallClick(btn) {
+      btn.innerText = "Đang Loading...";
+      setTimeout(() => btn.innerText = "Cài đặt", 1000);
+    }
+  </script>
+
+      <!-- Hướng dẫn tin cậy -->
+<!-- Hướng Dẫn Tin Cậy -->
+<div class="trust-guide">
+  <h2>Hướng Dẫn Tin Cậy</h2>
+  <div class="steps">
+    <div class="step">
+      <p><strong>Bước 1</strong></p>
+      <img src="https://k3ndzy.github.io/CeniOs/hd1.png" alt="Bước 1">
+    </div>
+    <div class="step">
+      <p><strong>Bước 2</strong></p>
+      <img src="https://k3ndzy.github.io/CeniOs/hd2.png" alt="Bước 2">
+    </div>
+    <div class="step">
+      <p><strong>Bước 3</strong></p>
+      <img src="https://k3ndzy.github.io/CeniOs/hd3.png" alt="Bước 3">
+    </div>
+  </div>
+</div>
+    <div class="tips">
+      Mở bằng Safari (iPhone/iPad) → Nhấn nút Cài đặt.<br /><br />
+      ⭐️ Zalo Admin: <a href="https://zalo.me/420773099399" target="_blank">Cen iOS</a><br />
+       Telegram: <a href="https://t.me/cenios" target="_blank">Cen iOS</a><br />
+      🎀 Nhóm Lấy Key Free: <a href="https://t.me/CenIOSMOD" target="_blank">Click vào đây</a>
+    </div>
+      
+    <button class="toggle-theme" onclick="toggleTheme()">  Chuyển nền</button>
+      
+</body>
+</html>
